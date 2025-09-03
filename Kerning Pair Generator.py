@@ -1,5 +1,6 @@
 # MenuTitle: Kerning Pairs Generator
 # -*- coding: utf-8 -*-
+# Based on the Kerning pair Generator of Junik Studio (https://www.junikstudio.com/kernings/)
 from GlyphsApp import Glyphs, Message
 import vanilla
 
