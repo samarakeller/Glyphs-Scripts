@@ -1,2 +1,2 @@
 # Glyphs-Scripts
-Scriptscollectrion for Glyphs
+Script Collection for Glyphs
