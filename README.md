@@ -8,7 +8,7 @@
   - Output Ex. n$n$o$o$H$H$O$H
 
 - **KernKween-Generator**
-  - Select between a lowercase and uppercase kerning word lists ( based of KernKing) and get a X number of random words from the list.
+  - Select from a lowercase and uppercase kerning word lists (based on KernKing) and get a X number of random words.
 
 - **Kerning Pair Generator**
   - Based on the Kerning Pair Generator of Junik Studio (https://www.junikstudio.com/kernings/)
