@@ -12,5 +12,7 @@
 
 - **Kerning Pair Generator**
   - Based on the Kerning Pair Generator of Junik Studio (https://www.junikstudio.com/kernings/)
-
+ 
+- **Copy Sidebearing**
+  - ^^ ( Still testing )
 
