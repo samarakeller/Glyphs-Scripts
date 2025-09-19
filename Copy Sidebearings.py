@@ -14,10 +14,10 @@ import traceback
 from GlyphsApp import Glyphs
 
 class CopySidebearings(object):
-    """GUI for copying glyph sidebearings from one font to another"""
+    """GUI for copying glyph sidebearings from one to another"""
     
     def __init__(self):
-        # Check if we have at least 2 fonts open
+        # Check if at least 2 fonts are open
         if len(Glyphs.fonts) < 2:
             Glyphs.showMacroWindow()
             print("Requires two fonts to be open.")
@@ -166,7 +166,7 @@ class CopySidebearings(object):
                     print(glyphName)
                 print("")
             
-            # Close dialog
+            # Close
             self.w.close()
             
             # Show completion message
@@ -178,5 +178,4 @@ class CopySidebearings(object):
             print(f"Error: {e}")
             print(traceback.format_exc())
 
-# Run the script
 CopySidebearings()
