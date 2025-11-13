@@ -1,6 +1,7 @@
 # MenuTitle: Samara's Glyph Race
 # -*- coding: utf-8 -*-
 # Glyph Timer with history of last 20 glyphs (per glyph name, not per master)
+import timer
 from vanilla import FloatingWindow, TextBox, Button
 class Timer():
 	def __init__(self):
@@ -68,7 +69,7 @@ class Timer():
 			g = Glyphs.font.glyphs[gName]
 			if g:
 				t = g.userData.get("timer", 0)
-				if g == self.currentGlyph:
+				if g.name == self.currentGlyph.name:
 					t += time.time() - self.start
 				summaryLines.append(f"{gName}: {self.formatTime(t)}")
 		self.w.summary.set("\n".join(summaryLines))
