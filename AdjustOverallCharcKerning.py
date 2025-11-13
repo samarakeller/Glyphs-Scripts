@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 __doc__ = """
 Adjusts kerning for both left and right groups of one or more glyphs
-by a specified value, in the current master only.
+by a defined value, in the current master.
 """
 
 import GlyphsApp
