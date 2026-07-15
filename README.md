@@ -7,6 +7,9 @@
   - Inserts n, o, H, O before and after every character in the current Edit view.
   - Output Ex. n$n$o$o$H$H$O$H
 
+- **Copy Components in all Masters**
+  - Copies componets from the selected Master/Glyphs to all Masters in the Fontfile. (Can't override)
+
 - **KernKween-Generator**
   - Select from a lowercase and uppercase kerning word lists (based on KernKing) and get a X number of random words.
 
